@@ -1,1 +1,3 @@
-# Modeling-and-control-of-cyberphysical-systems
+# Modeling and control of cyber-physical systems
+
+In questa attività, svolta in team con altri 3 studenti del Politecnico di Torino, veniva richiesto di creare un controllore distribuito per un sistema multi-agente composto da 7 levitatori magnetici, dove uno di essi è etichettato come leader e gli altri sei devono adeguarsi al suo comportamento condividendo le informazioni tra loro. Questo è noto come problema di inseguimento cooperativo, assumendo il sistema rilevabile: si possono misurare solo l'ingresso e l'uscita, ma non le variabili di stato che sono state stimate sfruttando alcuni osservatori. Per controllare il sistema, è stato progettato un protocollo di controllo che agisce sull'ingresso dei sei agenti follower.
